@@ -1,0 +1,26 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.flutter-plugins-dependencies
+*.flutter-plugins
+
+# IntelliJ/VSCode
+.vscode/
+
+# FVM
+.fvm/
+.flutter-plugins
+.flutter-plugins-dependencies
+.version
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
