@@ -28,7 +28,7 @@ class LocalStorageServiceImpl implements LocalStorageService {
 
   @override
   Future<Result<Unit>> saveIdToken(String token) async {
-    await _flutterSecureStorage.write(key: 'id_tokem', value: token);
+    await _flutterSecureStorage.write(key: 'id_token', value: token);
     return successOfUnit();
   }
 }
